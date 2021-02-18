@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
     background-image: url('fondo.jpg');
 }
@@ -37,7 +38,7 @@ body{
   text-align: center;
   font-size: 18px;
   line-height: 40px;
-}
+} 
 .form-register a {
   color: white;
   text-decoration: none;
