@@ -3,22 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Formulario Registro</title>
+    <title>planilla chofer</title>
 </head>
 
 <body>
     <section class="form-register">
-        <h4>Formulario Registro</h4>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Registrar">
-        <p><a href="#">¿Ya tengo Cuenta?</a></p>
+
+        <h4>planilla chofer</h4>
+
+        <div class="form-group">
+            <label for="text">Id chofer:</label>
+            <input class="controls" type="text" name="idchofer" id="idchofer" placeholder="Id chofer">
+        </div>
+
+        <div class="form-group">
+            <label for="text">hora salida:</label>
+            <input class="controls" type="text" name="horasalida" id="horasalida" placeholder="hora de salida">
+        </div>
+
+        <div class="form-group">
+            <label for="text">salida:</label>
+            <input class="controls" type="text" name="correo" id="correo" placeholder="desde...">
+        </div>
+
+        <div class="form-group">
+            <label for="text">Destino:</label>
+            <input class="controls" type="text" name="correo" id="correo" placeholder="hasta...">
+        </div>
+
+        <div class="form-group">
+            <label for="text">Hora llegada:</label>
+            <input class="controls" type="text" name="horallegada" id="horallegada" placeholder="hora de llegada">
+        </div>
+
+        <div class="form-group">
+            <label for="text">Importe:</label>
+            <input class="controls" type="number" name="importe" id="importe" placeholder="$">
+        </div>
+
+        
+
+        <input class="botons" type="submit" value="cargar viaje">
     </section>
 </body>
 
